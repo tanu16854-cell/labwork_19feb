@@ -1,0 +1,9 @@
+notebooks = 3
+notebook_price = 45
+pens = 2
+pen_price =20
+amount_given = 500
+total = (notebooks * notesbook_price)
+balance = amount_given - total
+printf("Total Bill Amount =  ", total)
+printf("Remaining Balance =  ", balance)
